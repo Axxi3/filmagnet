@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Homenaje&display=swap');  
+html { 
+  font-size: 62.5%;
+}    
+:root{ 
+  --secondary-color:#CCFF00;  
+  --primary-color:#ffffff;  
+}
+*{ 
+padding: 0%;  
+box-sizing: border-box;  
+margin: 0%;      
+color: var(--primary-color);
+background-color: transparent;
+font-family: "Homenaje" , serif;
+}    
+p{ 
+  font-size: 1.7rem;
+}
+/* .background{   
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-image: url(images/653613.jpg);  
+    opacity: 0.9;
+} */    
+.backgtound-img{ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-image: url(images/653613.jpg);  
+    height: 95vh;     
+    width: 100%;
+    position: absolute;
+}
+.image{   
+  margin-left: 15px;
+  width: 30px;   
+  display: flex;    
+  font-size: 2.9rem;
+  align-items: center;
+  height: 30px;
+}  
+.items{   
+  align-items: center;
+  display: flex;      
+  background-color: transparent;
+  justify-content: space-around;  
+  gap: 90px;  
+ align-self: center;
+}    
+.items a {   
+
+  text-transform: uppercase;  
+  text-decoration: none;  
+  letter-spacing: 20%;
+}   
+.items a p{ 
+  color: var(--secondary-color);
+}
+nav{   
+  background-color: transparent;
+  display: flex;    
+  gap: 40px;    
+  justify-content: space-between;
+  width: 100%;
+}    
+.searcher{   
+  all: unset;  
+  border: 1px solid var(--secondary-color);
+  height: 25px;    
+  width: 160px;  
+  color: var(--primary-color);
+font-size: 1.4rem;  
+
+}    
+.ss{ 
+  display: flex;  
+  gap: 20px;  
+  align-items: center;  
+  margin-right: 20px;
+}  
+
+.ss button{   
+  all: unset;
+  width: 85px;  
+  text-transform: uppercase;
+height: 30px;    
+font-size: 1.5rem;
+border: 1px solid var(--secondary-color);  
+text-align: center;  
+border-radius: 10px;  
+transition: border 0.5s;
+}  
+.ss button:hover{ 
+  cursor: pointer;  
+  border: 1px solid var(--primary-color); 
+}
+
+.quotes {     
+  position: relative;
+  font-size: 6.2rem;  
+  top: 58%;
+}   
+.quotes span:nth-child(2){ 
+  color: var(--secondary-color);
+}      
