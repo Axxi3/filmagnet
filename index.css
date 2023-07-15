@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Homenaje&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Homenaje&display=swap');    
+::-webkit-scrollbar {
+    display: none;
+}
 html { 
   font-size: 62.5%;
 }    
